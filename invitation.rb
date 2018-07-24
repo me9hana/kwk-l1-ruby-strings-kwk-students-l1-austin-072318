@@ -17,6 +17,9 @@ time = gets.chomp
 puts "When should your guest respond by?"
 deadline = gets.chomp
 
+puts "What is your (the host's) name?"
+host_name = gets.chomp
+
 puts "Dear #{guest_name},
 
 You are cordially invited to #{party_name} on #{date} at #{time}. Please RSVP no later than #{deadline}.
