@@ -14,8 +14,8 @@ date = gets.chomp
 puts "What time is the party?"
 time = gets.chomp
 
-puts ""
-
+puts "When should your guest respond by?"
+deadline = gets.chomp
 
 puts "Dear #{guest_name},
 
